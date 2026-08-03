@@ -865,7 +865,7 @@ nav{
     border-radius: 50px;
     color: #ffff;
     justify-content: space-between;
-    width: 327px;
+    width: 307px;
     height: 52px;
     margin-bottom: 50px;
     
@@ -1129,26 +1129,29 @@ p{
     
     justify-self: center;
     width: 330px;
+    height: 210px;
     
 }
-
+/*transforming*/
 .transforming{
-    padding: 30px 30px;
+    padding: 0px 1px;
     background-color: #ffffff;
+    width: 350px;
+    margin-right:200px;
 }
 
 
 .trans{
-    display:block;
+    display: block;
     align-items: center;
     
 }
 
 .transaction{
     background-color: #eef3ff;
-    width: 280px;
+    width: 370px;
     border-radius: 20px;
-    padding: 20px 20px;
+    
 
 }
 
@@ -1158,7 +1161,7 @@ p{
     align-items: center;
     background-color: #ffffff;
     align-items: center;
-    padding: 5px;
+    padding: 0%;
     border-radius: 20px;
 
 }
@@ -1168,7 +1171,7 @@ p{
     justify-content:space-between;
     align-items: center;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 0%;
     border-radius: 20px;
     margin-top: 20px;
     
@@ -1179,7 +1182,7 @@ p{
     justify-content:space-between;
     align-items: center;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 0%;
     border-radius: 20px;
     margin-top: 20px;
 
@@ -1190,43 +1193,47 @@ p{
     gap: 20px;
 }
 
-
 .trans h4{
     font-family: "manrope", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: #171717;
-    line-height: auto;
-}
-
-
-.trans small{
-    font-family: "Inter", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    color: #383838;
     line-height: auto;
     
 }
 
 
+.trans small{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #383838;
+    line-height: auto;
+}
+
+
+
 .transforming h3{
     font-family: "manrope", sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     color: #000000;
     line-height: auto;
+    padding: 30px;
     margin-top: 40px;
 }
 
 .transforming p{
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 300;
     color: #383838;
     line-height: auto;
-    width: 400px;
+    width: 340px;
     text-align: left;
+    justify-self: center;
+    
+    
    
 
 }
@@ -1236,6 +1243,7 @@ ul{
     font-size: 18px;
     font-weight: 300;
     line-height: auto;
+    
 
 }
 
@@ -1245,6 +1253,11 @@ li{
     align-items: center;
     gap: 10px;
     margin: 20px 0;
+     font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: auto;
+    
 }
 
 
@@ -1267,6 +1280,7 @@ li{
     font-size: 10px;
     font-weight: 600;
     line-height: auto;
+    margin-right: 40px;
 }
 
 
@@ -1319,9 +1333,13 @@ li{
     font-weight:300;
     line-height:Auto ;
     color: #595959;
-    margin-bottom: 30px;
+    margin-top: 30px;
     
 
+}
+
+hr{
+    margin-bottom: 20px;
 }
 
 .faq-right{
@@ -1381,9 +1399,10 @@ details p{
 
 .smooth{
     background: #ffffff;
-    padding: 40px ;
-    padding-top: 20px 150px;
-    width: 1000px;
+    padding: 20px ;
+    
+    
+    
 
 }
 
@@ -1394,11 +1413,13 @@ details p{
 
 .international{
      font-family:"Manrope", sans-serif  ;
-    font-size:32px ;
+    font-size:22px ;
     font-weight:bold;
     line-height:Auto ;
     margin-bottom: 40px;
-    justify-self: center;
+    margin-right: 129px;
+    
+    
     
     
     
@@ -1408,14 +1429,14 @@ details p{
 
 #user{
       font-family:"Inter", sans-serif  ;
-    font-size:10px ;
+    font-size:12px ;
     font-weight:300;
     line-height:Auto ;
     color: #383838;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     justify-self: center ;
-    margin-right: 13px;
+    width: 400px;
     
     
     
@@ -1427,8 +1448,10 @@ details p{
 }
 
 .item span{
-    font-size:18px;
+    font-size:16px;
+    padding: 20px;
     font-weight:600;
+
     color:#111;
     
 }
@@ -1448,7 +1471,7 @@ details p{
  }
 
  .future li span{
-     font-size: 14px;
+    font-size: 14px;
     color:#585858;
     font-family: "Inter",sans-serif;
  }
@@ -1459,37 +1482,47 @@ details p{
      border-radius: 40px;
     background-color: #000000;
     color: white;
-    padding: 20px;
+    padding: 17px;
     margin-right: 90px;
     margin-top: 5px;
-    width: 140px;
-    
+    width: 130px;
+    margin-bottom: 30px;
 }
+
+.smooth-img{
+    width: 300px;
+}
+
+
+
+
+
+/*rating*/
 
 
 
 .rating{
     background: #ffffff;
-    display: flex;
+    display: block;
     padding: 70px;
 }
 
 
 .price{
     font-family: "Inter", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     line-height: auto;
-    width: 100px;
+    
     color: #595959;
     text-align: left;
     
 }
 
 .choice{
-    display: block;
+    display: flex;
     align-items: center;
-    
+    gap: 10px;
     margin-bottom: 20px;
 
 }
@@ -1501,26 +1534,27 @@ details p{
 
 
 /*download*/
-
 .download{
-    background: linear-gradient(#FFFFFF 25%, #f0f0f2 25%);
-    opacity: 100%; 
-    padding: 60px 20px;
+    background: linear-gradient(#FFFFFF 50%, #f0f0f2 30%);
+    opacity: 100%; width: 1400px;
      
 
 }
 
 .enhance{
     background: #171717;
+    position: relative;
+    top: -10px;
+    left: 30%;
     color: white;
+    transform: translateX(-45%);
     background-image: url(/Content.svg);
-    border-radius: 40px;
+    border-radius: 50px;
     padding: 40px ;
-    width: 300px;
-    height: 300px;justify-content: center;
-    align-items: center;
-    padding: 5% 10px;
-
+    width: 600px;
+    height: 300px;
+    
+    margin-right: 1400px;
 
     
 }
@@ -1528,12 +1562,13 @@ details p{
 
 .free{
     font-family:"Manrope", sans-serif  ;
-    font-size:20px ;
+    font-size:18px ;
     font-weight:bold;
     line-height:Auto ;
-   margin-left: 130px;
+    text-align: center;
     color: white;
     margin-bottom: 40px;
+    margin-left: 130px;
 
 }
 
@@ -1543,31 +1578,21 @@ details p{
     font-weight:300 ;
     line-height: Auto;
     color: white;
-     margin-left: 150px;
+    margin-left: 5px;
     
 }
 
 
 .carton{
-    display: flex;
-    gap: 5px;
-    justify-content: center;
-    margin-left: 150px;
-}
-
-/*footer*/
-
-
-footer{
-    padding:100px;
-    padding-top: 30px;
-    background: #f2f4f7;
-}
-
-.footer-container{
     display: block;
-    margin-bottom: 10px;
+    justify-self: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    
+    
 }
+
+
 
 
 
@@ -1601,11 +1626,12 @@ footer{
 
 .subscribe{
     font-family:"Manrope", sans-serif  ;
-    font-size:16px ;
+    font-size:14px ;
     font-weight:600;
     line-height:Auto ;
     color:black;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .newsletter{
@@ -1624,20 +1650,32 @@ input{
     border-radius: 40px;
     padding: 20px;
     background-color: transparent;
+    width: 100px;
     
     
+}
+
+.bank{
+    width: 200px;
 }
 
 .comy{
     display: flex;
     margin-bottom: 40px;
+    font-family:"Inter", sans-serif  ;
+    font-size:16px ;
+    font-weight:300;
+    line-height:Auto ;
+    color:black;
+    
 }
 
 .footer-link{
-    gap: 30px;
+    gap: 35px;
     display: flex;
     width: 300px;
     justify-content: space-between;
+    padding: 20px;
 }
 
 
@@ -1645,25 +1683,35 @@ input{
 .footer-link a{
     color: #585858;
     text-decoration: none;
+    font-family:"Inter", sans-serif  ;
+    font-size:10px ;
+    font-weight:300;
+    line-height:Auto ;
+    
+    
     
 }
 form{
     display: flex;
-    padding: 3px 5px; 
+    padding: 3px 32px; 
     align-items: center;
     border-radius: 50px;
     gap: 10px;
+    width: 300px;
     margin-bottom: 20px;
     background-color: #FFFFFF;
 }
 
 .footer-btn{
     border-radius: 30px;
-    width: 130px; height: 50px;
+    width: 800px; height: 30px;
     background-color: black;
     color: white;
     border: none;
+    
+    
 }
+
 
 #policy{
     color: black;
@@ -1675,7 +1723,8 @@ form{
     font-weight:300;
     line-height:Auto ;
     color:#595959;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    margin-left: 18px;
     
 
 
@@ -1684,6 +1733,12 @@ form{
 .copy{
     display: flex;
     justify-content: space-between;
+    font-family:"Inter", sans-serif  ;
+    font-size:16px ;
+    font-weight:300;
+    line-height:Auto ;
+    margin-bottom: 40px;
+    text-align: left;
 }
 
 .social{
@@ -1707,8 +1762,6 @@ form{
      
     
 }
-
-
 
 
 
