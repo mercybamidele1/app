@@ -847,9 +847,9 @@ form{
 
 
 /* screen aizes*/
-@media (min-width:320px) and (max-width:480px) {
+@media screen and (max-width: 768px ){
 
-.body{
+    .body{
      background: #F3F3F5;
       background-image: url(BG\ Line\ Objects.svg);
     font-family:"Manrope", sans-serif;
@@ -865,7 +865,7 @@ nav{
     border-radius: 50px;
     color: #ffff;
     justify-content: space-between;
-    width: 307px;
+    width: 80%;
     height: 52px;
     margin-bottom: 50px;
     
@@ -934,19 +934,21 @@ h1{
     font-weight:bold;
     line-height:124% ;
     text-align: center;
+    width: 90%;
     margin-bottom: 40px;
 }
 
 p{
     font-family:"Inter", sans-serif  ;
-    font-size:13px ;
+    font-size:16px ;
     font-weight:300 ;
     line-height:Auto ;
     text-align: left;
     justify-self: center;
      margin-bottom: 30px;
      color: #000000;
-     padding: 20px 11px;
+    padding:10px;
+     width: 87%;
 
 }
 
@@ -971,7 +973,7 @@ p{
 #request{
      background-color:#5945FD;
     border-radius: 40px;
-    padding:18px 30px;
+    padding:18px 20px;
     color: white;
     border: none;
     
@@ -985,7 +987,7 @@ p{
 
 .idamu{
     justify-self: center;
-    width: 400px;
+    width: 100%;
 }
 
 
@@ -999,11 +1001,12 @@ p{
 
 .leader{
      font-family:"Manrope", sans-serif  ;
-    font-size:14px ;
+    font-size:16px ;
     font-weight:mixed ;
     line-height:Auto ;
     text-align: center;
     margin-bottom: 20px;
+    width: 100%;
     
     
 }
@@ -1030,8 +1033,8 @@ p{
 
 .sending{
     background: #ffffff;
-    padding: 20px 30px;
-    width: 327px; 
+    padding: 20px;
+    width: 100%; 
     
 
 
@@ -1039,11 +1042,11 @@ p{
 
 .money{
     font-family:"Manrope", sans-serif  ;
-    font-size:32px ;
-    width: 330px;
+    font-size:27px ;
+    width: 90%;
     font-weight:bold;
     line-height:Auto ;
-    padding: 30px 60px;
+    padding:10px;
     justify-self: center;
     margin-bottom: 20px;
     
@@ -1055,14 +1058,15 @@ p{
 
 .fintech{
     font-family:"Inter", sans-serif  ;
-    font-size:11px ;
+    font-size:14px ;
     font-weight:400;
     line-height:Auto ;
     color: #595959;
-    width: 420px;
+    width:70%;
     margin: 0%;
-    margin-left: 105px;
-    text-align: left;
+    margin-bottom: 30px;
+    text-align:center;
+
    
     
      
@@ -1103,7 +1107,7 @@ p{
     font-family:"Manrope", sans-serif  ; 
     font-weight: 600;
     line-height: auto;
-    width: 340px;
+    width: 70%;
 }
 
 
@@ -1114,10 +1118,10 @@ p{
     font-weight:300;
     line-height:Auto ;
     color: #595959;
-    text-align: left;
+
     justify-self: center;
-    margin-left: 170px;
-    width: 371px;
+    width:88%;
+    
    
 
 
@@ -1128,160 +1132,80 @@ p{
 .phone{
     
     justify-self: center;
-    width: 330px;
-    height: 210px;
-    
-}
-/*transforming*/
-.transforming{
-    padding: 0px 1px;
-    background-color: #ffffff;
-    width: 350px;
-    margin-right:200px;
-}
-
-
-.trans{
-    display: block;
-    align-items: center;
+    width: 90%;
+    height:200px;
+    margin-bottom: 30px;
     
 }
 
-.transaction{
-    background-color: #eef3ff;
-    width: 370px;
-    border-radius: 20px;
-    
 
+/* transforming*/
+  
+  section.transforming {
+    padding: 20px 0px;
+  }
+
+
+  .trans {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  
+  .transaction {
+    width: 97%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 24px 16px;
+  }
+
+  .amazon h4{
+    font-size: 15px;
+    margin-bottom: 5px;
+
+  }
+
+  
+  .uber h4{
+     font-size: 15px;
+  }
+
+
+.paypal h4{
+     font-size: 15px;
 }
 
-.amazon{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color: #ffffff;
-    align-items: center;
-    padding: 0%;
-    border-radius: 20px;
+  
+  .transforming h3 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
 
-}
-
-.uber{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 0%;
-    border-radius: 20px;
-    margin-top: 20px;
-    
-}
-
-.paypal{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 0%;
-    border-radius: 20px;
-    margin-top: 20px;
-
-}
-
-.transaction-logo{
-    display: flex;
-    gap: 20px;
-}
-
-.trans h4{
-    font-family: "manrope", sans-serif;
+  .transforming p {
     font-size: 14px;
-    font-weight: 600;
-    color: #171717;
-    line-height: auto;
-    
-}
+    line-height: 1.5;
+  }
+
+  ul {
+    font-size: 15px;
+    padding-left: 0;
+  }
+
+  li {
+    margin: 14px 0;
+  }
 
 
-.trans small{
-    font-family: "Inter", sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    color: #383838;
-    line-height: auto;
-}
+  .click {
+    width: 100%;
+    max-width: 200px;
+  }
 
 
 
-.transforming h3{
-    font-family: "manrope", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #000000;
-    line-height: auto;
-    padding: 30px;
-    margin-top: 40px;
-}
-
-.transforming p{
-    font-family: "Inter", sans-serif;
-    font-size: 10px;
-    font-weight: 300;
-    color: #383838;
-    line-height: auto;
-    width: 340px;
-    text-align: left;
-    justify-self: center;
-    
-    
-   
-
-}
-
-ul{
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: auto;
-    
-
-}
-
-li{
-    color: #383838;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 20px 0;
-     font-family: "Inter", sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: auto;
-    
-}
 
 
-.click{
-    height: 50px;
-    width: 152px;
-    font-family: "manrope", sans-serif;
-    font-size: 19px;
-    font-weight: medium;
-    color: #ffffff;
-    background-color: #000000;
-    margin-top: 20px;
-    line-height: auto;
-    border-radius: 50px;
 
-}
-
-.dollar{
-    font-family: "manrope", sans-serif;
-    font-size: 10px;
-    font-weight: 600;
-    line-height: auto;
-    margin-right: 40px;
-}
 
 
 /*question*/
@@ -1366,6 +1290,7 @@ summary{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
 
 }
 
@@ -1395,104 +1320,87 @@ details p{
     text-align: left;
 }
 
+
+
 /*smooth*/
+    .smooth {
+        
+        width: 100%;
+        max-width: 100%;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
 
-.smooth{
-    background: #ffffff;
-    padding: 20px ;
-    
-    
-    
+    .transfer {
+        flex-direction: column;
+        gap: 40px; 
+        align-items: center;
+    }
 
-}
+    .smooth-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-.transfer{
-    display: flex;
-    
-}
-
-.international{
-     font-family:"Manrope", sans-serif  ;
-    font-size:22px ;
-    font-weight:bold;
-    line-height:Auto ;
-    margin-bottom: 40px;
-    margin-right: 129px;
-    
-    
-    
-    
-    
-    
-
-}
-
-#user{
-      font-family:"Inter", sans-serif  ;
-    font-size:12px ;
-    font-weight:300;
-    line-height:Auto ;
-    color: #383838;
-    text-align: left;
-    margin-bottom: 30px;
-    justify-self: center ;
-    width: 400px;
-    
-    
-    
-
-}
-
-#svg{
-    margin-left: 50px;
-}
-
-.item span{
-    font-size:16px;
-    padding: 20px;
-    font-weight:600;
-
-    color:#111;
-    
-}
-
-.future{
-    padding: 0;
-    margin: 0 0 35px;
-    list-style: none;
-    margin-left: 10px;
-}
-
- .future li{
-    gap: 10px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 18px;
- }
-
- .future li span{
-    font-size: 14px;
-    color:#585858;
-    font-family: "Inter",sans-serif;
- }
+    .international {
+        font-size: 28px; 
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
 
-.smooth-btn{
+    .international br,
+    #user br {
+        display: none;
+    }
 
-     border-radius: 40px;
-    background-color: #000000;
-    color: white;
-    padding: 17px;
-    margin-right: 90px;
-    margin-top: 5px;
-    width: 130px;
-    margin-bottom: 30px;
-}
+    #user {
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+        width: 100%;
+    }
 
-.smooth-img{
-    width: 300px;
-}
+    .future {
+        margin-left: 0;
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 320px; 
+    }
 
+    .future li {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .future li span {
+        font-size: 15px; 
+    }
+
+    .smooth-btn {
+        margin-right: 0; 
+        width: 100%;
+        max-width: 180px;
+        padding: 14px 20px;
+        cursor: pointer;
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .smooth-img {
+        width: 100%;
+        max-width: 360px; 
+        height: auto;
+    }
 
 
 
@@ -1504,7 +1412,7 @@ details p{
 .rating{
     background: #ffffff;
     display: block;
-    padding: 70px;
+    padding: 5px;
 }
 
 
@@ -1534,66 +1442,51 @@ details p{
 
 
 /*download*/
-.download{
-    background: linear-gradient(#FFFFFF 50%, #f0f0f2 30%);
-    opacity: 100%; width: 1400px;
-     
+    .download {
+        width: 100%;
+        box-sizing: border-box;
+    }
 
-}
-
-.enhance{
-    background: #171717;
-    position: relative;
-    top: -10px;
-    left: 30%;
-    color: white;
-    transform: translateX(-45%);
-    background-image: url(/Content.svg);
-    border-radius: 50px;
-    padding: 40px ;
-    width: 600px;
-    height: 300px;
-    
-    margin-right: 1400px;
+    .enhance {
+        width: 70%;            
+        height: auto;          
+        position: static;      
+        transform: none;       
+        margin: 20px auto;     
+        padding: 30px 20px;    
+        border-radius: 24px;  
+    }
 
     
-}
+    .download br {
+        display: none;
+    }
 
-
-.free{
-    font-family:"Manrope", sans-serif  ;
-    font-size:18px ;
-    font-weight:bold;
-    line-height:Auto ;
-    text-align: center;
-    color: white;
-    margin-bottom: 40px;
-    margin-left: 130px;
-
-}
-
-.miss{
-     font-family:"Inter",sans-serif ;
-    font-size:10px ;
-    font-weight:300 ;
-    line-height: Auto;
-    color: white;
-    margin-left: 5px;
     
-}
+    .free {
+        font-size: 26px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
 
+    .miss {
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 30px;
+    }
 
-.carton{
-    display: block;
-    justify-self: center;
-    margin-left: 100px;
-    margin-bottom: 50px;
-    
-    
-}
+    .carton {
+        flex-direction: column; 
+        align-items: center;
+        gap: 15px;
+    }
 
-
-
+    .carton img {
+        width: 100%;
+        max-width: 180px;      
+        height: auto;
+    }
 
 
 
@@ -1651,7 +1544,7 @@ input{
     padding: 20px;
     background-color: transparent;
     width: 100px;
-    
+
     
 }
 
@@ -1661,20 +1554,21 @@ input{
 
 .comy{
     display: flex;
-    margin-bottom: 40px;
+    margin-top: 140px;
     font-family:"Inter", sans-serif  ;
-    font-size:16px ;
-    font-weight:300;
+    font-size:18px ;
+    font-weight:500;
     line-height:Auto ;
     color:black;
+
     
 }
 
 .footer-link{
-    gap: 35px;
-    display: flex;
+
+    display: block;
     width: 300px;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -1684,16 +1578,16 @@ input{
     color: #585858;
     text-decoration: none;
     font-family:"Inter", sans-serif  ;
-    font-size:10px ;
+    font-size:14px ;
     font-weight:300;
-    line-height:Auto ;
-    
+    line-height:Auto ; 
+    ;
     
     
 }
 form{
     display: flex;
-    padding: 3px 32px; 
+    padding: 3px 4px; 
     align-items: center;
     border-radius: 50px;
     gap: 10px;
@@ -1715,6 +1609,10 @@ form{
 
 #policy{
     color: black;
+    font-size:12px ;
+    font-weight:300;
+    line-height:Auto ;
+    
 }
 
 .sub{
@@ -1749,19 +1647,69 @@ form{
 
 
 
-
-
-
-
-
-
-
-
-
-
      
     
 }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
